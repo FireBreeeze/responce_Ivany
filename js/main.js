@@ -20,6 +20,9 @@ $(function(){
 
     if(scrollAnchor === '#gallery') {
       scrollPoint = scrollPoint - 65;
+    }
+    if(scrollAnchor === '#gallery-2') {
+      scrollPoint = scrollPoint - 65;
     } 
 
     if(scrollAnchor === '#contacts') {
