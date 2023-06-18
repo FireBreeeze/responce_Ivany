@@ -409,7 +409,8 @@ body {
   font-size: 16px;
 }
 
-.gallery {
+.gallery,
+.gallery-2 {
   padding-bottom: 140px;
   text-align: center;
 }
@@ -455,6 +456,11 @@ body {
 .gallery__item {
   transition: opacity 0.5s;
   margin: 0 45px 45px 0;
+}
+
+.gallery-2_img{
+  max-width: 400px;
+  max-height: 265px;
 }
 
 .reviews {
